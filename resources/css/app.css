@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #728c69;
+    --color-primary-light: #a3bfa0;
+    --color-primary-dark: #4c6346;
+
+    --color-secondary: #d9d0c1;
+    --color-secondary-light: #f2ece4;
+    --color-secondary-dark: #a69d8d;
+
+    --color-neutral-100: #f7f7f7;
+    --color-neutral-200: #e5e5e5;
+    --color-neutral-800: #333333;
+    --color-neutral-900: #1a1a1a;
+    
+    --font-sans: "Inter", sans-serif;
+
+    --animate-pulse-slow: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-slow {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+}
